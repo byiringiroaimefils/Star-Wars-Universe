@@ -1,0 +1,11 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
