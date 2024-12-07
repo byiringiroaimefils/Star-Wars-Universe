@@ -5,7 +5,7 @@ import { GrCaretNext } from "react-icons/gr";
 export default function NewFeatures() {
     return (
         <div>
-            <div className="grid-background flex items-center justify-center h-screen p-10 translate-y-[-50px]">
+            <div className="grid-background flex items-center justify-center h-screen p-10  translate-y-10">
                 <div className="flex flex-col justify-center items-center w-full md:w-[70%] text-center">
                     <h1 className="font-bold font-sans text-5xl leading-tight fade-in fade-in-delay-1">Get answers. Find inspiration. Be more productive.</h1>
                     <p className="mt-4 fade-in fade-in-delay-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem at libero consequuntur doloremque, <br />et excepturi! Lorem ipsum dolor sit amet.</p>
