@@ -15,25 +15,25 @@ export default function starships() {
                     <div className='Slideshow'>
                         <Fade>
                             <div className="each-slide-effect ">
-                                <div style={{ 'backgroundImage': `url('https://lumiere-a.akamaihd.net/v1/images/bell-zettifar-main_0eb1bcd0.jpeg?region=0%2C0%2C1920%2C1080')` }}>
+                                <div style={{ 'backgroundImage': `url('https://files.clearlydev.com/site-assets/2023/06/CR90-Corvette-Image-01.png')` }}>
                                     <div className='span'>
-                                        <p className='text-xl font-extrabold'>Sabine Wren</p>
+                                        <p className='text-xl font-extrabold'>CR90 corvette</p>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, doloremque!</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="each-slide-effect">
-                                <div style={{ 'backgroundImage': `url('https://lumiere-a.akamaihd.net/v1/images/ahsoka-main_88c206d7.jpeg?region=420%2C60%2C1500%2C843')` }}>
+                                <div style={{ 'backgroundImage': `url('https://lumiere-a.akamaihd.net/v1/images/Star-Destroyer_ab6b94bb.jpeg?region=0%2C0%2C1600%2C900')` }}>
                                     <div className='span'>
-                                        <p className='text-xl font-extrabold'>Ahsoka Tano</p>
+                                        <p className='text-xl font-extrabold'>Star Destroyer</p>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, doloremque!</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="each-slide-effect">
-                                <div style={{ 'backgroundImage': `url('https://lumiere-a.akamaihd.net/v1/images/star-wars-movies-and-series-guide-article-feature_a12ab7bb.jpeg?region=0,0,1600,900&width=960')` }}>
+                                <div style={{ 'backgroundImage': `url('https://fractalsponge.net/wp/wp-content/uploads/2022/02/sentinel4-1536x864.jpg')` }}>
                                     <div className='span'>
-                                        <p className='text-xl font-extrabold'>Bell Zettifar</p>
+                                        <p className='text-xl font-extrabold'>Sentinel-class landing craf</p>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, doloremque!</p>
                                     </div>
                                 </div>
@@ -42,51 +42,51 @@ export default function starships() {
                     </div>
                     <div className="Container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-center gap-5 ml-9 mt-10 mx-auto p-12 translate-x-2">
                         <div className="card fade-in  bg-gray-50/10">
-                            <img src="https://lumiere-a.akamaihd.net/v1/images/bell-zettifar-main_0eb1bcd0.jpeg?region=0%2C0%2C1920%2C1080" className="w-80" /><br />
+                            <img src="https://files.clearlydev.com/site-assets/2023/06/CR90-Corvette-Image-01.png" className="w-80" /><br />
                             <div className="p-2">
-                                <h2 className="font-extrabold text-xl text-center">Bell Zettifar</h2>
+                                <h2 className="font-extrabold text-xl text-center">CR90 corvette</h2>
                             </div>
                         </div>
                         <div className="card fade-in fade-in-delay-1  bg-gray-50/10 ">
-                            <img src="https://lumiere-a.akamaihd.net/v1/images/ahsoka-main_88c206d7.jpeg?region=420%2C60%2C1500%2C843" className="w-80" /><br />
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/Star-Destroyer_ab6b94bb.jpeg?region=0%2C0%2C1600%2C900" className="w-80" /><br />
                             <div className="p-2">
-                                <h2 className="font-extrabold text-xl text-center">Ahsoka Tano</h2>
+                                <h2 className="font-extrabold text-xl text-center">Star Destroyer</h2>
                             </div>
                         </div>
                         <div className="card fade-in fade-in-delay-2   bg-gray-50/10 ">
-                            <img src="https://lumiere-a.akamaihd.net/v1/images/sabine-wren-main_be6cc30d.jpeg?region=1%2C0%2C1919%2C1080" className="w-80" /><br />
+                            <img src="https://fractalsponge.net/wp/wp-content/uploads/2022/02/sentinel4-1536x864.jpg" className="w-80" /><br />
                             <div className="p-2">
-                                <h2 className="font-extrabold text-xl text-center">Sabine Wren</h2>
+                                <h2 className="font-extrabold text-xl text-center">Sentinel-class landing craf</h2>
                             </div>
                         </div>
                         <div className="card fade-in fade-in-delay-3   bg-gray-50/10 ">
-                            <img src="https://lumiere-a.akamaihd.net/v1/images/ahsoka-official-trailer-stills-02_3fa41ad2.jpeg?region=0%2C0%2C1623%2C913" className="w-80" /><br />
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/Death-Star-I-copy_36ad2500.jpeg?region=0%2C0%2C1600%2C900" className="w-80" /><br />
                             <div className="p-2">
-                                <h2 className="font-extrabold text-xl text-center">Hera Syndulla</h2>
+                                <h2 className="font-extrabold text-xl text-center">Death Star</h2>
                             </div>
                         </div>
                         <div className="card  bg-gray-50/10 w-fit h-fit pb-5 rounded-lg border-b-4 ">
-                            <img src="https://lumiere-a.akamaihd.net/v1/images/star-wars-movies-and-series-guide-article-feature_a12ab7bb.jpeg?region=0,0,1600,900&width=960" className="w-80" /><br />
+                            <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/03/Star-Wars-Impractical-Reliable-Ships-Millennium-Falcon.jpg?q=50&fit=crop&w=1140&h=&dpr=1.5" className="w-80" /><br />
                             <div className="p-2">
-                                <h2 className="font-extrabold text-xl text-center">Bell Zettifar</h2>
+                                <h2 className="font-extrabold text-xl text-center">Millennium Falcon</h2>
                             </div>
                         </div>
                         <div className="card  bg-gray-50/10 w-fit h-fit pb-5 rounded-lg border-b-4 ">
-                            <img src="https://lumiere-a.akamaihd.net/v1/images/lsw-holiday-special-sw2-hero-mobile_1f47761f.jpeg?region=0,0,1280,720&width=960" className="w-80" /><br />
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/Y-Wing-Fighter_0e78c9ae.jpeg?region=0%2C0%2C1536%2C864" className="w-80" /><br />
                             <div className="p-2">
-                                <h2 className="font-extrabold text-xl text-center">Ahsoka Tano</h2>
+                                <h2 className="font-extrabold text-xl text-center">Y-wing</h2>
                             </div>
                         </div>
                         <div className="card  bg-gray-50/10 w-fit h-fit pb-5  rounded-lg border-b-4">
-                            <img src="https://lumiere-a.akamaihd.net/v1/images/skeleton-crew-in-theaters_article-feature_e6156ab8.jpeg?region=0,0,1600,900&width=960" className="w-80" /><br />
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/resistance-x-wing_9433981f.jpeg?region=0%2C0%2C1560%2C878" className="w-80 " /><br />
                             <div className="p-2">
-                                <h2 className="font-extrabold text-xl text-center">Sabine Wren</h2>
+                                <h2 className="font-extrabold text-xl text-center">X-wing</h2>
                             </div>
                         </div>
                         <div className="card  bg-gray-50/10 w-fit h-fit pb-5  rounded-lg border-b-4">
-                            <img src="https://lumiere-a.akamaihd.net/v1/images/skeleton-crew-premiere-date_article-feature_54b0c76d.jpeg?region=0,0,1600,900&width=960" className="w-80" /><br />
+                            <img src="https://static.wikia.nocookie.net/starwars/images/1/1d/Vader_TIEAdvanced_SWB.png/revision/latest?cb=20160915042032" className="w-80" /><br />
                             <div className="p-2">
-                                <h2 className="font-extrabold text-xl text-center">Hera Syndulla</h2>
+                                <h2 className="font-extrabold text-xl text-center">TIE Advanced x1</h2>
                             </div>
                         </div>
                     </div>
