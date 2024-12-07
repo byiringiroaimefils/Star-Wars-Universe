@@ -1,14 +1,143 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.grid-background {
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
-      linear-gradient(to bottom, #80808012 1px, transparent 1px);
-    background-size: 24px 24px;
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased;
   }
-body{
-    background-color: black;
-    color: white;
+
+  h1 {
+    @apply text-4xl md:text-5xl font-bold;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-semibold;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-gray-900/50 backdrop-blur-sm rounded-xl border border-gray-700/50
+           transition-all duration-300 hover:shadow-xl hover:shadow-white/10
+           hover:-translate-y-1 overflow-hidden;
+  }
+
+  .btn {
+    @apply px-6 py-2 rounded-full font-semibold transition-all duration-300
+           hover:-translate-y-0.5 active:translate-y-0;
+  }
+/* 
+  .btn-primary {
+    @apply bg-white text-black hover:bg-gray-200
+           hover:shadow-lg hover:shadow-white/20;
+  }
+
+  .btn-outline {
+    @apply border-2 border-white hover:bg-white hover:text-black
+           hover:shadow-lg hover:shadow-white/20;
+  }
+
+  .nav-link {
+    @apply text-gray-300 hover:text-white transition-colors duration-200;
+  } */
+
+  .fade-in {
+    @apply opacity-0;
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+  
+  .fade-in-delay-1 {
+    animation-delay: 0.2s;
+  }
+  
+  .fade-in-delay-2 {
+    animation-delay: 0.4s;
+  }
+  
+  .fade-in-delay-3 {
+    animation-delay: 0.6s;
+  }
+  .fade-in-delay-4 {
+    animation-delay: 0.8s;
+  }
+  .fade-in-delay-5 {
+    animation-delay: 1s;
+  }
+}
+
+/* Grid background */
+.grid-background {
+  @apply h-screen w-full relative;
+  background-image: 
+    linear-gradient(to right, rgba(128, 128, 128, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(128, 128, 128, 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.grid-background::after {
+  @apply content-[''] absolute inset-0 pointer-events-none;
+  background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Input styles */
+input {
+  @apply bg-gray-900/50 border border-gray-700/50 rounded-lg px-4 py-2
+         focus:outline-none focus:ring-2 focus:ring-white/20
+         transition-all duration-200;
+}
+
+/* Update container styles */
+.container {
+  @apply max-w-7xl mx-auto;
+}
+
+/* Remove any transform styles that might be causing overflow */
+.translate-x-2 {
+  @apply transform-none;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide-effect .span {
+ width: 100%;
+ height: 25%;
+ background-color: black;
+ opacity: 0.5;
+ position: fixed;
+ bottom: 0;
+ padding: 10px;
+
 }

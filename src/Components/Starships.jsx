@@ -2,13 +2,13 @@ import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
 
-export default function Films() {
+export default function starships() {
     return (
         <>
             <div>
                 <div className="">
                     <div className="flex flex-col justify-center items-center m-5 text-center ml-10 fade-in">
-                        <h2 className="text-3xl font-bold">Movie.</h2>
+                        <h2 className="text-3xl font-bold">Star Ships</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, at.</p>
                         <div className="w-52 h-1 bg-white mt-5 rounded-lg"></div>
                     </div>
