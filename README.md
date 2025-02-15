@@ -21,4 +21,4 @@ A React-based web application that allows users to explore the Star Wars univers
 - React Infinite Scroll
 - React Slideshow Image
 
-## 📦 Project Structure
+
