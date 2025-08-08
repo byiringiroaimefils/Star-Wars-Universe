@@ -19,8 +19,6 @@ A React-based web application that allows users to explore the Star Wars univers
 - Axios for API calls
 - React Icons
 - React Infinite Scroll
-- React Slideshow Image
-
-## 📦 Project Structure
+- React Slideshow Image.
 
 
